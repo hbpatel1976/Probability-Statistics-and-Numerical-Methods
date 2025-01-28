@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define EPSILON_ACCURACY 0.01
+#define Accuracy 0.01
 
 double function(double x)
 {
@@ -16,7 +16,7 @@ void bisection(double a, double b)
 	}
 
 	double c = a;
-	while ((b-a) >= EPSILON_ACCURACY)
+	while ((b-a) >= Accuracy)
 	{
 		/*Compute the middle point*/
 		c = (a+b)/2;
